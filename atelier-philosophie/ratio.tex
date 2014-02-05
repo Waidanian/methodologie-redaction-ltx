@@ -1,0 +1,87 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[fulloldstylenums]{kpfonts}
+\usepackage{sectsty}
+\usepackage{microtype}
+
+\allsectionsfont{\mdseries}
+
+\title{Proposition d’atelier méthodologique: l’utilisation de \LaTeX{} pour la rédaction de travaux, de mémoires et de thèses en philosophie}
+\author{Christian Gagné}
+\date{\today}
+
+\usepackage{hyperref}
+
+\begin{document}
+
+\maketitle
+
+\section{Qu’est-ce que \LaTeX{}}
+
+\LaTeX{} est un format \emph{sémantique} pour la rédaction de documents \emph{structurés}. \LaTeX{} fait partie du système \TeX{}, lequel comprend un moteur typographique, des formats de rédaction, un système de gestion de la bibliographie, des moteurs de composition graphique et plusieurs familles de polices typographiques de qualité professionnelle. \TeX{} est aussi un ensemble de \emph{logiciels libres}, ce qui signifie que le système est développé en public, qu’il peut être utilisé et partagé librement et qu’il est gratuit.
+
+Concrètement, on écrit un document dans un éditeur de texte: ça peut être \textsc{Word} ou \textsc{OpenOffice}, mais il existe des logiciels d’édition destinés spécifiquement à \LaTeX{}. Au travers du texte, on insère des mots-clés, qu’on peut considérer comme des \emph{balises} servant à désigner la structure et la mise en forme. Ensuite, le moteur \TeX{} produit un \textothersc{pdf} à partir du document ainsi balisé.
+
+Par exemple, pour accentuer un terme ou une expression dans une phrase, on peut écrire la phrase ainsi:
+
+\begin{verbatim}
+Ce système est \emph{excellent}.
+\end{verbatim}
+
+Le mot-clé \verb$\emph$ désigne une accentuation (de l’anglais \emph{emphasis}) et le texte accentué est placé entre accolades \verb${}$. Dans le \textothersc{pdf}, cela donne ceci:
+
+\begin{quote}
+Ce système est \emph{excellent}.
+\end{quote}
+
+\section{Pourquoi utiliser \LaTeX{} en philosophie et lors de la rédaction}
+
+\LaTeX{} permet à l’auteur de se concentrer sur le contenu et la structure de son texte sans avoir à se soucier de composer une mise en page: c’est le moteur \TeX{} qui se charge de la composition à partir de la structure du document et d’un ensemble de règles définies par une \emph{classe} et des \emph{feuilles de style}. L’\textsc{Université Laval} a déjà développé un modèle de document (une \emph{classe}, nommée «\href{http://ctan.org/pkg/ulthese}{ulthese}») pour les thèses et mémoires. Ce modèle peut aussi être utilisé pour des articles et travaux de toutes sortes.
+
+Les principaux avantages communs à toutes les disciplines universitaires sont la prise en charge et la composition correcte de textes en différentes langues modernes et anciennes, un traitement automatisé de la bibliographie et des références et un partage aisé des documents grâce à la normalisation du format, ce qui facilite grandement la collaboration et l’édition.
+
+Certains avantages intéressant spécialement la philosophie sont:
+
+\smallskip{}
+
+\begin{itemize}
+\item la désignation de la sémantique et du statut des énoncés et des expressions par balisage;
+\item un traitement impeccable des langues anciennes telles que le grec et le latin;
+\item un traitement tout aussi impeccable des langues modernes telles que le français, l’anglais, l’allemand, etc.
+\end{itemize}
+
+\section{Le contenu abordé lors de l’atelier}
+
+L’atelier sera ainsi divisé:
+
+\smallskip{}
+
+\begin{itemize}
+\item{Portée de cette présentation}
+\item{Qu’est-ce qu’un logiciel libre?}
+\item{Présentation de \TeX{} et \LaTeX{}: l’analogie des navigateurs Web et des suites bureautiques}
+\begin{itemize}
+\item{\TeX{} est un moteur de disposition typographique}
+\item{\LaTeX{} est un format de rédaction et de structure}
+\end{itemize}
+\item{Avantages de l’utilisation de \LaTeX{} pour la recherche et la rédaction en philosophie}
+\begin{itemize}
+\item{Prise en charge des langues}
+\item{Traitement de la bibliographie}
+\item{Balisage sémantique et communication efficace d’une argumentation}
+\item{Publication aisée et normalisation}
+\end{itemize}
+\end{itemize}
+
+\smallskip{}
+
+Le but principal de ce premier atelier est de familiariser les étudiants, les chercheurs et le personnel de la Faculté avec le système. Des ateliers ultérieurs pourraient servir à prendre en main le système et le modèle de thèses et mémoires de la \textothersc{fesp}.
+
+\section{Temps prévu}
+
+J’estime que l’atelier devrait durer au moins 1~heure, mais pas plus de 2~heures. Bien présenter un tel système en peu de temps est un défi stimulant; j’estime qu’il faudra laisser un temps appréciable (de l’ordre d’une demi-heure) pour des questions et discussions après la présentation.
+
+\end{document}
