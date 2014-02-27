@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.20)  4 FEB 2014 12:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  26 FEB 2014 23:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -919,57 +919,57 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./ratio.aux)
 \openout1 = `ratio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 18.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 18.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 21.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 21.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 18.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 21.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 18.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 21.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 18.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 21.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Try loading font information for T1+jkposn on input line 18
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for T1+jkposn on input line 21
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/t1jkposn.fd
 File: t1jkposn.fd 2008/02/18 Fontinst v1.928 font definitions for T1/jkposn.
 )
-LaTeX Info: Redefining \degres on input line 18.
-LaTeX Info: Redefining \dots on input line 18.
-LaTeX Info: Redefining \up on input line 18.
-LaTeX Info: Redefining \microtypecontext on input line 18.
+LaTeX Info: Redefining \degres on input line 21.
+LaTeX Info: Redefining \dots on input line 21.
+LaTeX Info: Redefining \up on input line 21.
+LaTeX Info: Redefining \microtypecontext on input line 21.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -984,7 +984,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 21.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -994,16 +994,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (./ratio.out) (./ratio.out)
 \@outlinefile=\write3
 \openout3 = `ratio.out'.
 
 LaTeX Font Info:    Try loading font information for OT1+jkposn on input line 2
-1.
+4.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ot1jkposn.fd
 File: ot1jkposn.fd 2008/02/18 Fontinst v1.928 font definitions for OT1/jkposn.
@@ -1012,25 +1012,25 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkposn' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 24.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 24.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 24.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 21.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 24.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
@@ -1039,8 +1039,8 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkposn/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+jkpkosn on input line 2
-6.
+LaTeX Font Info:    Try loading font information for T1+jkpkosn on input line 3
+2.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/t1jkpkosn.fd
 File: t1jkpkosn.fd 2008/02/18 Fontinst v1.928 font definitions for T1/jkpkosn.
@@ -1053,7 +1053,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkpkosn/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Try loading font information for T1+jkpttosn on input line 
-30.
+36.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/t1jkpttosn.fd
 File: t1jkpttosn.fd 2008/02/18 Fontinst v1.928 font definitions for T1/jkpttosn
@@ -1066,23 +1066,23 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 
 (./ratio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `ratio.out' has not changed.
-(rerunfilecheck)             Checksum: 982B59366D27741AA3EBD7BC890A3144;282.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+(rerunfilecheck)             Checksum: 3E7FCAE7013A2F30D527A2C55341B6C0;233.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 9409 strings out of 493308
- 137348 string characters out of 6137816
- 239662 words of memory out of 5000000
- 12527 multiletter control sequences out of 15000+600000
- 109480 words of font info for 271 fonts, out of 8000000 for 9000
+ 9393 strings out of 493308
+ 137175 string characters out of 6137816
+ 239826 words of memory out of 5000000
+ 12522 multiletter control sequences out of 15000+600000
+ 108496 words of font info for 263 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  34i,6n,35p,642b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.en
@@ -1095,10 +1095,10 @@ e/2013/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/20
 xmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on ratio.pdf (2 pages, 66483 bytes).
+Output written on ratio.pdf (2 pages, 66489 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 44577 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 44569 words of extra memory for PDF output out of 51595 (max. 10000000)
 
