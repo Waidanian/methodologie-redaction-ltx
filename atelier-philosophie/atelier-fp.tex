@@ -6,6 +6,7 @@
 \usepackage[fulloldstylenums]{kpfonts}
 %\usepackage[a5paper]{geometry}
 \usepackage{sectsty}
+\usepackage{tcolorbox}
 
 \allsectionsfont{\mdseries}
 \frenchbsetup{%
@@ -17,6 +18,20 @@
 \date{\today}
 
 \newcommand\pkgname[1]{\emph{#1}}
+\newcommand\entite[1]{\textsc{#1}}
+
+% Définition en exergue:
+\newenvironment{defex}
+{\begin{tcolorbox}[
+    colback=yellow!8!white,
+    colframe=red!32!black,
+    coltext=red!32!black,
+    arc=0mm,
+    outer arc=0mm,
+    toprule=0mm,
+    bottomrule=0mm,
+]}
+{\end{tcolorbox}}
 
 \usepackage{hyperref}
 
@@ -32,9 +47,9 @@ Cette présentation s’adresse à toute personne ayant à rédiger des document
 
 La finalité est de présenter \LaTeX{} en tant qu’outil de rédaction: montrer ses principes, son mode de fonctionnement, ses avantages et les résultats auxquels on parvient en l’utilisant.
 
-Je mets l’accent sur la rédaction en sciences humaines et spécialement en philosophie, mais la méthode et les techniques présentées peuvent être bénéfiques pour tous les domaines (sciences de la nature, économie, création, pédagogie \emph{etc.}).
+Je mets l’accent sur la rédaction en sciences humaines et spécialement en philosophie, mais la méthode et les techniques présentées peuvent être bénéfiques pour tous les domaines (sciences de la nature, économie, création littéraire, pédagogie \emph{etc.}).
 
-Comme le \emph{système} \LaTeX{} est constitué de logiciels libres, je présente d’abord ce que j’entend par logiciel libre et en quoi importe l’utilisation des logiciels libres et publics au lieu des logiciels privés.
+Comme le \emph{système} \LaTeX{} est constitué de logiciels libres, je présente d’abord ce que j’entend par logiciel libre et en quoi importe l’utilisation de logiciels libres et publics au lieu de logiciels privés.
 
 Pour faire comprendre le fonctionnement de \LaTeX{} et le situer par rapport aux autres outils de rédaction, je procède par analogies avec des outils plus familiers: les navigateurs Web et les suites bureautiques.
 
@@ -42,11 +57,94 @@ Je présente les avantages de \LaTeX{} pour les trois étapes principales du tra
 
 \section{Qu’est-ce qu’un logiciel libre?}
 
+Les nombreux logiciels que nous utilisons aujourd’hui dans notre travail et nos loisirs appartiennent à deux grandes catégories méconnues: les logiciels libres ou de «source ouverte» et les logiciels privés.
+
+\begin{description}
+
+\item[Logiciel libre] Un logiciel libre est un logiciel développé en public et garantissant aux utilisateurs quatre libertés fondamentales:
+
+\begin{enumerate}
+\item La liberté d’utiliser le logiciel;
+\item La liberté d’étudier le fonctionnement du logiciel et de le modifier, ce qui nécessite d’avoir accès aux \emph{sources} du logiciel;
+\item La liberté de distribuer des copies du logiciel;
+\item La liberté de distribuer des copies \emph{modifiées} du logiciel.
+\end{enumerate}
+
+Voici quelques exemples de logiciels libres très utilisés:
+
+\begin{itemize}
+\item Les navigateurs Web \entite{Mozilla Firefox} et \entite{Google Chrome};
+\item Les suites bureautiques \entite{OpenOffice} et \entite{LibreOffice};
+\item Le lecteur multimédia \entite{VLC};
+\item Certaines composantes du système d’exploitation \entite{Mac~OS~X}.
+\end{itemize}
+
+\item[logiciel privé] Un logiciel privé est un logiciel \emph{développé en privé} (le public n’a pas accès aux \emph{sources} du logiciel), qu’on peut utiliser sous licence mais dont on ne peut pas étudier le fonctionnement (souvent, des clauses de la licence défendent cela explicitement), qu’on ne peut donc ni modifier ni distribuer soi-même.
+
+Exemples de logiciels privés:
+
+\begin{itemize}
+\item \entite{Microsoft Windows}, \entite{Microsoft Office};
+\item La plupart des composantes de \entite{Mac~OS~X};
+\item \entite{EndNote};
+\item \entite{Skype}, etc.
+\end{itemize}
+
+\end{description}
+
+Il y a une distinction importante entre un logiciel gratuit et un logiciel libre: la plupart des logiciels libres sont gratuits, mais certains sont payants et il est tout à fait possible de les vendre avec l’intention de générer un profit. Par ailleurs, plusieurs logiciels sont gratuits mais privés (comme \entite{Skype}, dont le \emph{logiciel client} est gratuit et avec lequel on paie pour un service plutôt que pour le logiciel lui-même).
+
+Étant donné ces distinctions, établissons le statut de \LaTeX{}: c’est un logiciel à la fois libre et gratuit, distribué en tant que composante d’un système plus vaste (le système \TeX{}) qui est lui-même libre et gratuit.
+
+De nos jours, dans le monde universitaire (particulièrement en France, mais cela s’observe à travers le monde), l’opinion de plus en plus répandue est la suivante: les logiciels libres correspondent mieux aux besoins et aux visées des chercheurs, des étudiants et des travailleurs universitaires, autant sur le plan technique que sur le plan éthique. Pour ce qui est de l’aspect technique, j’espère vous convaincre de l’excellence de \LaTeX{}; pour ce qui est de l’aspect éthique, il faudrait en faire une démonstration argumentée en une autre occasion, mais vous pourrez constater par vous-mêmes qu’il est intuitif de choisir un système libre et gratuit pour la recherche et la rédaction en philosophie.
+
 \section{Présentation de \TeX{} et \LaTeX{}: l’analogie des navigateurs Web et des suites bureautiques}
+
+Je vais tenter de vous faire saisir la nature du système et la distinction qui existe entre
+
+\begin{itemize}
+\item \LaTeX{}, le format documentaire et
+\item \TeX{}, le moteur qui utilise le format \LaTeX{} pour effectuer la composition typographique du document,
+\end{itemize}
+
+en procédant par analogies et exemples.
 
 \subsection{\TeX{} est un moteur de disposition typographique}
 
+Quand on navigue sur le Web et qu’on charge une nouvelle page, il se passe essentiellement les choses suivantes:
+
+\begin{enumerate}
+\item Grâce à une \emph{adresse} (un URL), on localise un \emph{document} qui se trouve sur un ordinateur (un serveur) quelque part dans le monde;
+\item Ce document est rédigé (\emph{encodé}) dans un certain format: le format des pages Web s’appelle HTML. Notre navigateur Web vérifie s’il comprend le format du document;
+\item Si le navigateur reconnaît qu’il s’agit bien d’un document HTML, alors le navigateur effectue la \emph{composition} et le \emph{rendu} du document selon les \emph{règles} du format HTML: on peut ensuite lire la page sur notre écran.
+\end{enumerate}
+
+Au regard de ces considérations sur le fonctionnement des navigateurs Web, on peut présenter \TeX{} ainsi:
+
+\begin{defex}
+Le moteur typographique \TeX{} est aux documents \LaTeX{} ce que le navigateur Web est aux documents HTML. C’est un moteur de composition et de rendu qui produit un document lisible et mis en forme selon certaines règles.
+\end{defex}
+
+Notez que les logiciels de traitement de texte qu’on connaît bien possèdent aussi leur propre moteur de composition. Cependant, dans le cas du traitement de texte, la distinction entre le format du document et sa composition est beaucoup moins visible, à moins d’ouvrir un document Word ou OpenOffice d’une façon spéciale et avec un autre genre de logiciel afin de voir ce qui se cache «en-dessous» de la représentation graphique du document. Cela m’amène à parler des caractéristiques spécifiques du format \LaTeX{}.
+
 \subsection{\LaTeX{} est un format de rédaction et de structure}
+
+Développons l’analogie avec les logiciels de traitement de texte.
+Quand on écrit un texte dans Word ou OpenOffice, on choisit des styles dans un menu et, en les appliquant, on en voit le résultat immédiatement et dans la même fenêtre. Cependant, à l’interne, le document sur lequel on travaille contient ce qu’on appelle des \emph{balises}, comme dans une page Web. Ces balises sont cachées, mais elles sont bel et bien enregistrées dans le document: le moteur de composition de Word ou d’OpenOffice s’en sert pour effectuer la composition du document. Sans ces balises, le logiciel ne saurait pas quelle mise en forme appliquer à quelle partie du texte. Ces balises servent à indiquer non seulement l’apparence du document, mais aussi sa \emph{structure sémantique}, par exemple:
+
+\begin{itemize}
+\item Quelles parties du texte sont des titres?
+\item Quelles parties sont des citations longues?
+\item Quelle partie est une table des matières? Est-elle écrite à la main par l’auteur ou générée automatiquement par le logiciel à partir des titres balisés?
+\end{itemize}
+
+Au regard de ces considérations sur le fonctionnement des logiciels de traitement de texte, on peut présenter \LaTeX{} ainsi:
+
+\begin{defex}
+\LaTeX{} est au moteur \TeX{} ce que les \emph{styles} d’un logiciel de traitement de texte sont au \emph{moteur de rendu} d’un logiciel de traitement de texte.
+
+L’utilisation du format \LaTeX{} procure au moteur \TeX{} les \emph{instructions} nécessaires à la mise en forme du document et à la désignation de la \emph{structure sémantique} du document.
+\end{defex}
 
 \section{Avantages de l’utilisation de \LaTeX{} pour la recherche et la rédaction en philosophie}
 
