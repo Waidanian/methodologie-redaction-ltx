@@ -200,13 +200,7 @@ Nous allons présenter brièvement différents aspects avantageux de la rédacti
 
 \subsection{Prise en charge des langues}
 
-La ligne~2 de mon exemple indique qu’on utilise pour le traitement des langues le paquet~\pkgname{polyglossia}. La ligne suivante indique la langue principale du document: \Verb|\setmainlanguage{french}|. Cela rend le texte du document immédiatement conforme aux règles typographiques traditionnelles: \pkgname{polyglossia} applique même spécifiquement le \opus{Lexique des règles typographiques en usage à l’Imprimerie nationale}, alors on est entre bonnes mains. En lisant le présent document, vous pouvez constater que la disposition est excellente. En particulier, les césures sont correctement appliquées et la justification est de loin supérieure à celle des logiciels de traitement de texte (et même supérieure au résultat par défaut qu’on peut obtenir avec un logiciel de mise en page comme \entite{Adobe~InDesign}).
-
-Tandis qu’on parle des logiciels de mise en page, je vous donne un \emph{scoop}:
-
-\begin{defex}
-Quand on utilise \LaTeX{}, on n’a nullement besoin d’un logiciel de mise en page: le document PDF produit par \LaTeX{} est immédiatement conforme aux normes professionnelles d’édition.
-\end{defex}
+La ligne~2 de mon exemple indique qu’on utilise pour le traitement des langues le paquet~\pkgname{polyglossia}. La ligne suivante indique la langue principale du document: \Verb|\setmainlanguage{french}|. Cela rend le texte du document immédiatement conforme aux règles typographiques traditionnelles: \pkgname{polyglossia} applique même spécifiquement le \opus{Lexique des règles typographiques en usage à l’Imprimerie nationale}, alors on est entre bonnes mains.
 
 Voyons l’exemple d’un texte en grec ancien et de sa traduction, mis côte à côte:
 
@@ -234,7 +228,130 @@ On peut ainsi écrire du grec polytonique en \emph{balisant} les sections en gre
 
 \subsection{Traitement de la bibliographie}
 
+J’en viens à la partie qui aura peut-être le plus de succès: le traitement automatique de la bibliographie et des références.
+
+On sait qu’il existe un logiciel largement répandu et pour lequel l’Université offre même un certain soutien technique: \entite{EndNote}. Cependant, dans les faits, peu d’étudiants l’utilisent: il est probable qu’une des raisons principales soit le coût du logiciel.
+
+\LaTeX{} comprend deux systèmes bibliographiques, dont l’un est traditionnel et orienté vers les sciences de la nature, l’autre moderne et orienté vers les sciences humaines (l’humble opinion de votre présentateur est que ce dernier est également supérieur pour les sciences de la nature, mais énormément de gens utilisent l’autre système depuis longtemps et passent au nouveau de façon progressive).
+
+Attention: le nom du système traditionnel est Bib\TeX{}, le nom du nouveau système est Bib\LaTeX{}.
+
+\begin{defex}
+Bib\LaTeX{} comprend:
+\begin{itemize}
+\item un \emph{format de rédaction} pour constituer des bases de données bibliographiques;
+\item un ensemble de \emph{styles} de citations et de listes des références;
+\item un \emph{moteur} qui traite les informations encodées dans la base de données et les met à la disposition de \LaTeX{} pour qu’elles soient typographiées grâce aux \emph{styles} choisis dans le \emph{préambule} du document \LaTeX{}.
+\end{itemize}
+\end{defex}
+
+Par exemple, dans le préambule du présent document, j’ai écrit:
+
+\begin{defex}
+\begin{Verbatim}[numbers=left,
+                   numbersep=4pt]
+\usepackage[%
+    backend=biber,
+    style=authortitle,]%
+  {biblatex}
+
+\addbibresource{atelier.bib}
+\end{Verbatim}
+\end{defex}
+
+Ces commandes indiquent que:
+
+\begin{itemize}
+\item je désire utiliser le système Bib\LaTeX{},
+\item avec le moteur moderne \entite{Biber} (qui prend en charge toutes les langues et tous les jeux de caractères),
+\item avec le style \pkgname{authortitle}, qui correspond très bien aux normes en vigueur en sciences humaines à l’Université Laval (plusieurs variantes existent).
+\end{itemize}
+
+À la fin de mon document, j’ai écrit:
+
+\begin{defex}
+\begin{Verbatim}
+\printbibliography
+\end{Verbatim}
+\end{defex}
+
+Avec cette unique commande, la liste des références est automatiquement imprimée à la fin du document.
+
+Voici à quoi ressemble une entrée dans le fichier de base de données (l’exemple est la \citetitle{plat:rep:lrx} de \citeauthor{plat:rep:lrx} dans l’édition GF qu’on connaît bien):
+
+\begin{defex}
+\begin{Verbatim}
+@book { plat:rep:lrx,
+  author =
+    {Platon},
+  title =
+    {République},
+  date =
+    {2004},
+  editor =
+    {Georges Leroux},
+  translator =
+    {Georges Leroux},
+  annotator =
+    {Georges Leroux},
+  language =
+    {french},
+  origlanguage =
+    {greek},
+  edition =
+    {deuxième édition corrigée},
+  series =
+    {GF},
+  publisher =
+    {Flammarion},
+  location =
+    {Paris},
+  pagetotal =
+    {801},
+}
+\end{Verbatim}
+\end{defex}
+
+J’ai une nouvelle réjouissante pour tous: depuis quelques temps, le catalogue Ariane de notre chère bibliothèque rend disponible les données du catalogue au format Bib\TeX{}! Je dis bien Bib\TeX{}, donc le format de l’ancien système (sûrement à cause des préférences des gens en sciences de la nature, qui ont beaucoup influencé l’adoption de \LaTeX{} par la \entite{FESP}), mais les deux formats sont largement compatibles. Il suffit souvent d’ajouter quelques entrées pour rendre les données d’Ariane encore plus complètes.
+
+Enfin, le plus important: la puissance expressive de Bib\LaTeX{} réside dans l’attribution d’une \emph{clé de citation} à chaque ouvrage de la base de données. À la ligne~1 de mon exemple, on peut voir que la clé de citation que j’ai choisie est \Verb|plat:rep:lrx|, ce qui me permet de citer l’ouvrage simplement en écrivant e.g.:
+
+\begin{defex}
+\begin{Verbatim}
+\autocite[\nopp III,~400d--e]{plat:rep:lrx}
+\end{Verbatim}
+\end{defex}
+
+à la fin de ma citation. Si j’ai choisi le style \pkgname{authortitle}, cela crée automatiquement une note de bas de page contenant la référence, comme on peut le voir dans l’exemple de texte grec à la section précédente.
+
+L’usage de cette commande a deux autres bénéfices:
+
+\begin{defex}
+  \begin{itemize}
+  \item La référence complète de l’ouvrage est composée dans la bibliographie à la fin du document, \emph{parce qu’il a été cité au moins une fois dans le document} (on n’a donc pas besoin de réécrire les références en fin de document chaque fois qu’on cite un nouvel ouvrage);
+  \item On peut même demander au moteur typographique d’ajouter automatiquement, dans la bibliographie, des \emph{renvois} vers les pages et sections où l’ouvrage est cité. Vous avez bien compris: cela permet de composer automatiquement un \emph{index locorum}!
+  \end{itemize}
+\end{defex}
+
 \subsection{Balisage sémantique et communication efficace d’une argumentation}
+
+Personnellement, ce que je m’apprête à vous présenter est mon aspect préféré du processus de rédaction avec \LaTeX{}.
+
+Premièrement, sachez que la présentation que vous voyez à l’écran et le \emph{handout} ont été préparés à partir d’un unique document \LaTeX{}. Avec des commandes, j’ai indiqué quelles parties devaient être composées sur les diapositives de ma présentation. Aucun copier-coller. Telle est la puissance du logiciel.
+
+Cela m’amène à présenter un principe qui est d’une grande importance pour des gens en Philosophie et en Lettres: je veux parler du \emph{balisage sémantique}.
+
+Les logiciels de traitement de texte ont le mérite de synchroniser la rédaction, la mise en forme et la présentation du document, mais on en paie le prix. Dans les faits, la mise en forme est une tâche ingrate et jamais tout à fait maîtrisée qui nous détourne de notre occupation principale: la rédaction. En traitement de texte traditionnel, les éléments de la mise en forme ont bien sûr leur raison d’être, mais le problème est le suivant:
+
+\begin{defex}
+  Les logiciels de traitement de texte nous encouragent à appliquer des éléments de mise en forme afin de nous rappeler du statut particulier d’une partie du texte, mais sans \emph{nommer} la raison spécifique de la distinction visuelle.
+\end{defex}
+
+Avec un format de rédaction comme \LaTeX{}, le principe est inverse:
+
+\begin{defex}
+  \LaTeX{} encourage à \emph{désigner} le sens, le statut ou la fonction d’une partie de texte par \emph{balisage}, c’est-à-dire en encadrant le texte avec des \emph{commandes}.
+\end{defex}
 
 Concept de déictique (référence, contextualisation, voir Chrysippe): LaTeX permet une *deixis* plus aisée en proposant une syntaxe de *désignation* très compacte et concise. Parler des pratiques contemporaines de référence par hyperlien et accentuation dans les articles de blog ou de sites “Question and Answer”.
 
@@ -247,6 +364,22 @@ Autre implication: une désignation adéquate facilite la *transformation* du te
 Exemple: le paquet \pkgname{syllogism}.
 
 \subsection{Publication aisée et normalisation}
+
+En lisant le présent document, vous avez pu constater que la disposition est excellente. Entre autres choses, les césures sont correctement appliquées et la justification est de loin supérieure à celle des logiciels de traitement de texte (et même supérieure au résultat par défaut qu’on peut obtenir avec un logiciel de mise en page comme \entite{Adobe~InDesign}).
+
+Tandis qu’on parle des logiciels de mise en page, je vous donne un \emph{scoop}:
+
+\begin{defex}
+Quand on utilise \LaTeX{}, on n’a nullement besoin d’un autre logiciel de mise en page: le document PDF produit par \LaTeX{} est immédiatement conforme aux normes professionnelles d’édition.
+
+On évite ainsi les pénibles labyrinthes du genre:
+
+Auteur~1 en Word~2011 \textrightarrow
+Auteur~2 en Word~2010 \textrightarrow
+Réviseur en Word~2013 \textrightarrow
+Secrétaire d’édition en Adobe InDesign (\textrightarrow)
+Auteur~1 encore une fois etc. etc. …
+\end{defex}
 
 En conclusion: matériellement, le texte est encodé selon les normes d’un format de rédaction à l’aide de mots-clés et, formellement, la désignation de la structure par un langage formel permet un traitement intelligent, reproductible et maîtrisable et une publication (communication) accessible, efficace, esthétique et *immédiate*.
 

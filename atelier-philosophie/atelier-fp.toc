@@ -20,8 +20,8 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Traitement de la bibliographie}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Traitement de la bibliographie}{6}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Balisage s\IeC {\'e}mantique et communication efficace d\IeC {\textquoteright }une argumentation}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Balisage s\IeC {\'e}mantique et communication efficace d\IeC {\textquoteright }une argumentation}{9}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Publication ais\IeC {\'e}e et normalisation}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Publication ais\IeC {\'e}e et normalisation}{10}{subsection.4.4}
