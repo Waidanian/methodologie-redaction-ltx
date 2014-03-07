@@ -1,0 +1,61 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{plat:rep:lrx}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e2baf3f5223080b8067f5af7843427cc}{Platon}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{annotator}{1}{}{%
+        {{hash=8fac29cb5e81f3a2d5e3a48d6b6f06a0}{Leroux}{L\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e2baf3f5223080b8067f5af7843427cc}{Platon}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8fac29cb5e81f3a2d5e3a48d6b6f06a0}{Leroux}{L\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=8fac29cb5e81f3a2d5e3a48d6b6f06a0}{Leroux}{L\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {french}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Flammarion}%
+      }
+      \strng{namehash}{e2baf3f5223080b8067f5af7843427cc}
+      \strng{fullhash}{e2baf3f5223080b8067f5af7843427cc}
+      \field{sortinit}{P}
+      \field{labeltitle}{République}
+      \field{edition}{deuxième édition corrigée}
+      \field{origlanguage}{greek}
+      \field{pagetotal}{801}
+      \field{series}{GF}
+      \field{title}{République}
+      \field{year}{2004}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

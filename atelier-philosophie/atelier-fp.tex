@@ -2,11 +2,19 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[polutonikogreek,french]{babel}
 \usepackage[fulloldstylenums]{kpfonts}
 %\usepackage[a5paper]{geometry}
 \usepackage{sectsty}
+\usepackage{multicol}
+\usepackage{fancyvrb}
 \usepackage{tcolorbox}
+\usepackage[%
+    backend=biber,
+    style=authortitle,]%
+  {biblatex}
+
+\addbibresource{atelier.bib}
 
 \allsectionsfont{\mdseries}
 \frenchbsetup{%
@@ -18,14 +26,17 @@
 \date{\today}
 
 \newcommand\pkgname[1]{\emph{#1}}
-\newcommand\entite[1]{\textsc{#1}}
+\newcommand\entite[1]{{\textsc{#1}}}
+\newcommand\opus[1]{{\textit{#1}}}
+\newcommand\stephnum[1]{%
+    \textsuperscript{#1}}
 
 % Définition en exergue:
 \newenvironment{defex}
 {\begin{tcolorbox}[
-    colback=yellow!8!white,
-    colframe=red!32!black,
-    coltext=red!32!black,
+    colback=yellow!5!white,
+    colframe=red!25!black,
+    coltext=red!25!black,
     arc=0mm,
     outer arc=0mm,
     toprule=0mm,
@@ -94,9 +105,19 @@ Exemples de logiciels privés:
 
 Il y a une distinction importante entre un logiciel gratuit et un logiciel libre: la plupart des logiciels libres sont gratuits, mais certains sont payants et il est tout à fait possible de les vendre avec l’intention de générer un profit. Par ailleurs, plusieurs logiciels sont gratuits mais privés (comme \entite{Skype}, dont le \emph{logiciel client} est gratuit et avec lequel on paie pour un service plutôt que pour le logiciel lui-même).
 
-Étant donné ces distinctions, établissons le statut de \LaTeX{}: c’est un logiciel à la fois libre et gratuit, distribué en tant que composante d’un système plus vaste (le système \TeX{}) qui est lui-même libre et gratuit.
+Étant donné ces distinctions, établissons le statut de \LaTeX{}:
 
-De nos jours, dans le monde universitaire (particulièrement en France, mais cela s’observe à travers le monde), l’opinion de plus en plus répandue est la suivante: les logiciels libres correspondent mieux aux besoins et aux visées des chercheurs, des étudiants et des travailleurs universitaires, autant sur le plan technique que sur le plan éthique. Pour ce qui est de l’aspect technique, j’espère vous convaincre de l’excellence de \LaTeX{}; pour ce qui est de l’aspect éthique, il faudrait en faire une démonstration argumentée en une autre occasion, mais vous pourrez constater par vous-mêmes qu’il est intuitif de choisir un système libre et gratuit pour la recherche et la rédaction en philosophie.
+\begin{defex}
+\begin{itemize}
+\item \LaTeX{} est un logiciel à la fois libre et gratuit, distribué en tant que composante d’un système plus vaste (le système \TeX{}) qui est lui-même libre et gratuit.
+
+\item \TeX{} et \LaTeX{} sont développés et gérés surtout en milieu universitaire; leurs développements et améliorations correspondent directement aux besoins et aux découvertes de travailleurs universitaires.
+
+\item Le système \TeX{} peut être installé grâce à ce qu’on appelle une \emph{distribution}. Les principales distributions sont gérées par des oganismes à but non lucratif et sont disponibles sur le Web.
+\end{itemize}
+\end{defex}
+
+De nos jours, dans le monde universitaire (particulièrement en Europe, mais cela s’observe à travers le monde), l’opinion de plus en plus répandue est la suivante: les logiciels libres correspondent mieux aux besoins et aux visées des chercheurs, des étudiants et des travailleurs universitaires, autant sur le plan technique que sur le plan éthique. Pour ce qui est de l’aspect technique, j’espère vous convaincre de l’excellence de \LaTeX{}; pour ce qui est de l’aspect éthique, il faudrait en faire une démonstration argumentée en une autre occasion, mais vous pourrez constater par vous-mêmes qu’il est intuitif de choisir un système libre et gratuit pour la recherche et la rédaction en philosophie.
 
 \section{Présentation de \TeX{} et \LaTeX{}: l’analogie des navigateurs Web et des suites bureautiques}
 
@@ -148,7 +169,68 @@ L’utilisation du format \LaTeX{} procure au moteur \TeX{} les \emph{instructio
 
 \section{Avantages de l’utilisation de \LaTeX{} pour la recherche et la rédaction en philosophie}
 
+Établissons d’abord un aspect primordial du processus de rédaction avec \LaTeX{}:
+
+\begin{defex}
+En principe, l’éditeur de texte dans lequel on écrit est indépendant du moteur de composition typographique utilisé.
+
+Je dis bien en principe, car plusieurs éditeurs offrent une certaine \emph{intégration} avec, d’une part, le moteur de composition et, d’autre part, le visualiseur du PDF produit par la composition.
+\end{defex}
+
+Cela signifie qu’on a du \emph{choix}. Pour apprendre à utiliser \LaTeX{}, l’éditeur le plus recommandé est \entite{TeXworks} sur Windows ou Linux et \entite{TeXShop} sur Mac~OS~X.
+
+Je montre maintenant les \emph{commandes} qu’on doit écrire en premier quand on commence à rédiger un document \LaTeX{}:
+
+\begin{defex}
+\begin{Verbatim}[numbers=left,
+                 numbersep=4pt]
+\documentclass{article}
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\begin{document}
+
+\end{document}
+\end{Verbatim}
+\end{defex}
+
+Dès qu’on a écrit ça, on peut commencer à écrire le texte entre les commandes \Verb|\begin{document}| et \Verb|\end{document}| et composer le document avec le moteur \entite{XeTeX}, qui est un moteur \TeX{} prenant en charge un très grand nombre de langues anciennes et modernes. Notez que la ligne~1 de mon exemple indique que la classe \pkgname{article} est choisie: la classe article est aussi celle qui est utilisée pour la version \emph{handout} du présent document. On pourrait aussi indiquer e.g.~\pkgname{ulthese} pour utiliser la classe de l’Université Laval.
+
+Nous allons présenter brièvement différents aspects avantageux de la rédaction dans ce contexte.
+
 \subsection{Prise en charge des langues}
+
+La ligne~2 de mon exemple indique qu’on utilise pour le traitement des langues le paquet~\pkgname{polyglossia}. La ligne suivante indique la langue principale du document: \Verb|\setmainlanguage{french}|. Cela rend le texte du document immédiatement conforme aux règles typographiques traditionnelles: \pkgname{polyglossia} applique même spécifiquement le \opus{Lexique des règles typographiques en usage à l’Imprimerie nationale}, alors on est entre bonnes mains. En lisant le présent document, vous pouvez constater que la disposition est excellente. En particulier, les césures sont correctement appliquées et la justification est de loin supérieure à celle des logiciels de traitement de texte (et même supérieure au résultat par défaut qu’on peut obtenir avec un logiciel de mise en page comme \entite{Adobe~InDesign}).
+
+Tandis qu’on parle des logiciels de mise en page, je vous donne un \emph{scoop}:
+
+\begin{defex}
+Quand on utilise \LaTeX{}, on n’a nullement besoin d’un logiciel de mise en page: le document PDF produit par \LaTeX{} est immédiatement conforme aux normes professionnelles d’édition.
+\end{defex}
+
+Voyons l’exemple d’un texte en grec ancien et de sa traduction, mis côte à côte:
+
+\begin{multicols}{2}
+\setlength{\columnseprule}{.1pt}
+
+\begin{otherlanguage}{polutonikogreek}
+εὐλογία ἄρα καὶ εὐαρμοστία καὶ εὐσχημοσύνη καὶ εὐρυθμία \stephnum{400ε} εὐηθείᾳ ἀκολουθεῖ, οὐχ ἣν ἄνοιαν οὖσαν ὑποκοριζόμενοι καλοῦμεν ὡς εὐήθειαν, ἀλλὰ τὴν ὡς ἀληθῶς εὖ τε καὶ καλῶς τὸ ἦθος κατεσκευασμένην διάνοιαν.
+\end{otherlanguage}
+
+\columnbreak
+
+Ainsi, l’excellence du discours et de l’harmonie, la grâce du geste et du rythme découlent de l’excellence du caractère \stephnum{400e}, non de ce que nous désignons ainsi par euphémisme et qui n’est qu’absence de réflexion, mais au contraire de cette réflexion authentique d’un caractère où s’allient le bien et le beau\autocite[\nopp III,~400d--e]{plat:rep:lrx}.
+\end{multicols}
+
+Les deux textes sont composés selon leurs règles typographiques propres. Il a simplement fallu ajouter au préambule du document la ligne suivante:
+
+\begin{defex}
+\begin{Verbatim}
+\setotherlanguage[variant=poly]{greek}
+\end{Verbatim}
+\end{defex}
+
+On peut ainsi écrire du grec polytonique en \emph{balisant} les sections en grec avec des commandes appropriées, soit \Verb|\begin{greek}| et \Verb|\end{greek}|.
 
 \subsection{Traitement de la bibliographie}
 
@@ -167,5 +249,7 @@ Exemple: le paquet \pkgname{syllogism}.
 \subsection{Publication aisée et normalisation}
 
 En conclusion: matériellement, le texte est encodé selon les normes d’un format de rédaction à l’aide de mots-clés et, formellement, la désignation de la structure par un langage formel permet un traitement intelligent, reproductible et maîtrisable et une publication (communication) accessible, efficace, esthétique et *immédiate*.
+
+\printbibliography
 
 \end{document}
