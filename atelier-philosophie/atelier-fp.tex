@@ -366,7 +366,30 @@ Je traduis ainsi: \\
 Un langage de balisage (documentaire) est un système moderne pour annoter un document de telle sorte que l’annotation puisse être syntaxiquement distinguée du texte.
 \end{defex}
 
-Le concept de balisage est au principe du traitement de texte informatique.
+Le concept de balisage est au principe du traitement de texte informatique. Du point de vue historique, les premiers langages de balisage étaient surtout destinés à la désignation de l’aspect visuel (typographique) des textes. Cependant, dès les années~60, des chercheurs commencèrent à explorer la possibilité d’utiliser le balisage pour désigner la structure, le sens et la fonction d’un texte et, également, pour en expliciter les \emph{références} et traiter celles-ci de façon automatique. Cela a mené aux concepts d’hypertexte et d’hyper-référence.
+
+Ces recherches ont mené à l’invention parallèle et quasi-simultanée de deux des langages de balisage les plus utilisés aujourd’hui: HTML pour le Web et \LaTeX{} pour l’édition traditionnelle. Tous deux sont, en principe, des langages de balisage spécifiquement \emph{sémantiques}.
+
+\begin{defex}
+  Un langage de balisage est dit \emph{sémantique} s’il permet de privilégier la désignation de la structure et du sens d’un texte plutôt que la désignation de son aspect visuel. Toutefois, dans la plupart des cas, un aspect visuel donné correspond logiquement à une désignation sémantique donnée.
+
+Par exemple, dans le présent document, la plupart des italiques que vous voyez ont été appliquées \emph{parce que} l’intention de l’auteur est d’accentuer les propos mis en italique. L’aspect visuel correspond donc dans ce cas à une intention rhétorique.
+
+Concrètement, la commande \LaTeX{} qu’on utilise pour signifier cette intention est \Verb|\emph{texte accentué}|. La commande \Verb|\emph{}| \emph{encadre} le texte accentué.
+\end{defex}
+
+Il est important de réaliser que \emph{tous} les textes qu’on produit à l’aide d’un ordinateur sont balisés. Les logiciels de traitement de texte ont leur propre format de balisage sous-jacent et tout ce qu’on écrit sur le Web est automatiquement balisé par le système du site Web où l’on écrit (que ce soit un courriel, une publication Twitter ou un formulaire de commande sur un site commercial).
+
+\begin{defex}
+Utiliser un système comme \LaTeX{}, c’est donc simplement décider d’écrire soi-même son balisage au lieu de laisser un logiciel l’ajouter automatiquement. Les deux approches ont leurs avantages, mais un langage comme celui de \LaTeX{} permet entre autres les choses suivantes:
+
+\begin{itemize}
+\item le contrôle et la maîtrise du texte,
+\item la normalisation et la prédictibilité,
+\item la communication claire des intentions argumentatives et éditoriales.
+\end{itemize}
+
+\end{defex}
 
 Concept de déictique (référence, contextualisation, voir Chrysippe): LaTeX permet une *deixis* plus aisée en proposant une syntaxe de *désignation* très compacte et concise. Parler des pratiques contemporaines de référence par hyperlien et accentuation dans les articles de blog ou de sites “Question and Answer”.
 

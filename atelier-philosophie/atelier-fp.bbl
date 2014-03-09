@@ -21,20 +21,20 @@
   \sortlist{entry}{nty}
     \entry{wiki:mrkp-lng}{inreference}{}
       \name{labelname}{1}{}{%
-        {{uniquename=0,hash=ac38a3acd1350272d3033da3b8288627}{multiples}{m\bibinitperiod}{Auteurs}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=862ba84c1e8367008b34fd7eaee0d6fd}{Multiples}{M\bibinitperiod}{}{}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{uniquename=0,hash=ac38a3acd1350272d3033da3b8288627}{multiples}{m\bibinitperiod}{Auteurs}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=862ba84c1e8367008b34fd7eaee0d6fd}{Multiples}{M\bibinitperiod}{}{}{}{}{}{}}%
       }
       \name{editor}{1}{}{%
         {{hash=2eec9d477c8684b5b9eeb882763c948c}{Foundation}{F\bibinitperiod}{The\bibnamedelima Wikimedia}{T\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
       }
       \list{language}{1}{%
-        {English}%
+        {english}%
       }
-      \strng{namehash}{ac38a3acd1350272d3033da3b8288627}
-      \strng{fullhash}{ac38a3acd1350272d3033da3b8288627}
-      \field{sortinit}{m}
+      \strng{namehash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{fullhash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \field{sortinit}{M}
       \field{labeltitle}{Markup Language}
       \field{booktitle}{Wikipedia}
       \field{day}{09}
