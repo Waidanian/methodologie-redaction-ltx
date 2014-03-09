@@ -66,6 +66,10 @@ Pour faire comprendre le fonctionnement de \LaTeX{} et le situer par rapport aux
 
 Je présente les avantages de \LaTeX{} pour les trois étapes principales du travail documentaire: la recherche, la rédaction et la publication.
 
+Le présent document existe sous deux formes: une présentation sur diapositives et un \emph{handout}. L’ensemble des documents est disponible sur le site Web \entite{GitHub} à l’adresse suivante: \\
+\url{https://github.com/Waidanian/methodologie-redaction-ltx} \\
+On trouvera là la toute dernière version et, éventuellement, d’autres ressources.
+
 \section{Qu’est-ce qu’un logiciel libre?}
 
 Les nombreux logiciels que nous utilisons aujourd’hui dans notre travail et nos loisirs appartiennent à deux grandes catégories méconnues: les logiciels libres ou de «source ouverte» et les logiciels privés.
@@ -337,21 +341,32 @@ L’usage de cette commande a deux autres bénéfices:
 
 Personnellement, ce que je m’apprête à vous présenter est mon aspect préféré du processus de rédaction avec \LaTeX{}.
 
-Premièrement, sachez que la présentation que vous voyez à l’écran et le \emph{handout} ont été préparés à partir d’un unique document \LaTeX{}. Avec des commandes, j’ai indiqué quelles parties devaient être composées sur les diapositives de ma présentation. Aucun copier-coller. Telle est la puissance du logiciel.
+Premièrement, sachez que la présentation que vous voyez à l’écran et le \emph{handout} ont été préparés à partir d’un unique document \LaTeX{}. Avec des commandes, j’ai indiqué quelles parties devaient être composées sur les diapositives de ma présentation. Aucun copier-coller n’a été nécessaire: le balisage du texte avec les commandes de \LaTeX{} permet de spécifier la fonction et la disposition de chaque partie du texte.
 
 Cela m’amène à présenter un principe qui est d’une grande importance pour des gens en Philosophie et en Lettres: je veux parler du \emph{balisage sémantique}.
 
-Les logiciels de traitement de texte ont le mérite de synchroniser la rédaction, la mise en forme et la présentation du document, mais on en paie le prix. Dans les faits, la mise en forme est une tâche ingrate et jamais tout à fait maîtrisée qui nous détourne de notre occupation principale: la rédaction. En traitement de texte traditionnel, les éléments de la mise en forme ont bien sûr leur raison d’être, mais le problème est le suivant:
+%Les logiciels de traitement de texte ont le mérite de synchroniser la rédaction, la mise en forme et la présentation du document, mais on en paie le prix. Dans les faits, la mise en forme est une tâche ingrate et difficile à maîtriser qui nous détourne de notre occupation principale: la rédaction. En traitement de texte traditionnel, les éléments de la mise en forme ont bien sûr leur raison d’être, mais le problème est le suivant:
 
-\begin{defex}
-  Les logiciels de traitement de texte nous encouragent à appliquer des éléments de mise en forme afin de nous rappeler du statut particulier d’une partie du texte, mais sans \emph{nommer} la raison spécifique de la distinction visuelle.
-\end{defex}
+% \begin{defex}
+%   Les logiciels de traitement de texte nous encouragent à appliquer des éléments de mise en forme afin de nous rappeler du statut particulier d’une partie du texte, mais sans \emph{nommer} la raison spécifique de la distinction visuelle.
+% \end{defex}
 
-Avec un format de rédaction comme \LaTeX{}, le principe est inverse:
+% Avec un format de rédaction comme \LaTeX{}, le principe est inverse:
 
 \begin{defex}
   \LaTeX{} encourage à \emph{désigner} le sens, le statut ou la fonction d’une partie de texte par \emph{balisage}, c’est-à-dire en encadrant le texte avec des \emph{commandes}.
+
+Le \emph{balisage} peut être défini ainsi:
+
+\begin{quote}
+A (document) markup language is a modern system for annotating a document in a way that is syntactically distinguishable from the text\autocite{wiki:mrkp-lng}.
+\end{quote}
+
+Je traduis ainsi: \\
+Un langage de balisage (documentaire) est un système moderne pour annoter un document de telle sorte que l’annotation puisse être syntaxiquement distinguée du texte.
 \end{defex}
+
+Le concept de balisage est au principe du traitement de texte informatique.
 
 Concept de déictique (référence, contextualisation, voir Chrysippe): LaTeX permet une *deixis* plus aisée en proposant une syntaxe de *désignation* très compacte et concise. Parler des pratiques contemporaines de référence par hyperlien et accentuation dans les articles de blog ou de sites “Question and Answer”.
 
