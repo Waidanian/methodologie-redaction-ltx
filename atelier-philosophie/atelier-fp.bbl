@@ -84,6 +84,35 @@
       \field{title}{République}
       \field{year}{2004}
     \endentry
+    \entry{rouquette-xe}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=fc63e2f2700e2f9df0dc80d0b79b2b97}{{Rouquette,\bibnamedelimb Maïeul}}{R\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=236ee7caa95a6dd91dd98e19fc3af512}{{Chabannes,\bibnamedelimb Brendan}}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=3a5ec8984ebb0dfc534a73343df4549c}{{Rouquette,\bibnamedelimb Enimie}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=fc63e2f2700e2f9df0dc80d0b79b2b97}{{Rouquette,\bibnamedelimb Maïeul}}{R\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=236ee7caa95a6dd91dd98e19fc3af512}{{Chabannes,\bibnamedelimb Brendan}}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=3a5ec8984ebb0dfc534a73343df4549c}{{Rouquette,\bibnamedelimb Enimie}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Tampere}%
+      }
+      \list{publisher}{1}{%
+        {Atramenta}%
+      }
+      \strng{namehash}{efe279611b2ffb68b00473dbbfc14c01}
+      \strng{fullhash}{efe279611b2ffb68b00473dbbfc14c01}
+      \field{sortinit}{R}
+      \field{labeltitle}{(Xe)LaTeX appliqué aux sciences humaines}
+      \field{isbn}{{9789522730732} and {9522730734}}
+      \field{pagetotal}{268}
+      \field{title}{(Xe)LaTeX appliqué aux sciences humaines}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://ariane.ulaval.ca/cgi-bin/recherche.cgi?qu=a2148913
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
