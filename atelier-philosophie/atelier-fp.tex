@@ -185,9 +185,13 @@ En principe, l’éditeur de texte dans lequel on écrit est indépendant du mot
 Je dis bien en principe, car plusieurs éditeurs offrent une certaine \emph{intégration} avec, d’une part, le moteur de composition et, d’autre part, le visualiseur du PDF produit par la composition.
 \end{defex}
 
-Cela signifie qu’on a du \emph{choix}. Pour apprendre à utiliser \LaTeX{}, l’éditeur le plus recommandé est \entite{TeXworks} sur Windows ou Linux et \entite{TeXShop} sur Mac~OS~X.
+Cela signifie qu’on a du \emph{choix}. Pour apprendre à utiliser \LaTeX{}, l’éditeur le plus recommandé est \entite{TeXworks} sur Windows ou Linux et \entite{TeXShop} sur Mac~OS~X. Dans tous les cas:
 
-Je montre maintenant les \emph{commandes} qu’on doit écrire en premier quand on commence à rédiger un document \LaTeX{}:
+\begin{defex}
+On écrit le document dans un fichier de texte simple dans lequel on insère des \emph{commandes} \LaTeX{} et, dans une autre fenêtre qu’on peut placer à côté, on visualise le PDF produit par le moteur \TeX{} à partir du fichier de texte simple. Le fichier de texte simple est donc comme un \emph{plan} servant à indiquer au moteur \TeX{} comment \emph{construire} le document PDF.
+\end{defex}
+
+Je montre maintenant les \emph{commandes} dont on a minimalement besoin pour commencer à rédiger un document \LaTeX{}:
 
 \begin{defex}
 \begin{Verbatim}[numbers=left,
@@ -202,7 +206,7 @@ Je montre maintenant les \emph{commandes} qu’on doit écrire en premier quand 
 \end{Verbatim}
 \end{defex}
 
-Dès qu’on a écrit ça, on peut commencer à écrire le texte entre les commandes \Verb|\begin{document}| et \Verb|\end{document}| et composer le document avec le moteur \entite{XeTeX}, qui est un moteur \TeX{} prenant en charge un très grand nombre de langues anciennes et modernes. Notez que la ligne~1 de mon exemple indique que la classe \pkgname{article} est choisie: la classe article est aussi celle qui est utilisée pour la version \emph{handout} du présent document. On pourrait aussi indiquer e.g.~\pkgname{ulthese} pour utiliser la classe de l’Université Laval.
+Dès qu’on a écrit ça, on peut commencer à écrire le texte entre les commandes \Verb|\begin{document}| et \Verb|\end{document}| et composer le document avec le moteur \entite{XeTeX}, qui est un moteur \TeX{} prenant en charge un très grand nombre de langues anciennes et modernes. Tout ce qui se trouve avant la ligne~5 (\Verb|\begin{document}|) constitue le \emph{préambule} du document. Notez que la ligne~1 de mon exemple indique que la classe \pkgname{article} est choisie: la classe article est aussi celle qui est utilisée pour la version \emph{handout} du présent document. On pourrait aussi indiquer e.g.~\pkgname{ulthese} pour utiliser la classe de l’Université Laval.
 
 Nous allons présenter brièvement différents aspects avantageux de la rédaction dans ce contexte.
 
