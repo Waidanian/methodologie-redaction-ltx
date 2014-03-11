@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.28)  11 MAR 2014 12:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.28)  11 MAR 2014 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,7 +1136,9 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
 LaTeX Info: Redefining \not on input line 1580.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/syllogism/syllogism.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/substitutefont/substitutefont.sty
+Package: substitutefont 2012/07/07 v0.1.3 combine font families
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/syllogism/syllogism.sty
 Package syllogism v1.2 <25/10/2008>.
 Package: syllogism 25/10/2008 v1.2
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
@@ -2134,59 +2136,59 @@ File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 ))
 \openout1 = `atelier-fp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 50.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 50.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 53.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 53.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+jkposn on input line 50
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for T1+jkposn on input line 53
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/t1jkposn.fd
 File: t1jkposn.fd 2008/02/18 Fontinst v1.928 font definitions for T1/jkposn.
 )
-LaTeX Info: Redefining \degres on input line 50.
-LaTeX Info: Redefining \dots on input line 50.
-LaTeX Info: Redefining \up on input line 50.
+LaTeX Info: Redefining \degres on input line 53.
+LaTeX Info: Redefining \dots on input line 53.
+LaTeX Info: Redefining \up on input line 53.
 
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -2226,10 +2228,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'atelier-fp.bbl' found.
 
 (./atelier-fp.bbl)
-Package biblatex Info: Reference section=0 on input line 50.
-Package biblatex Info: Reference segment=0 on input line 50.
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
 \AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -2239,168 +2241,172 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (./atelier-fp.out) (./atelier-fp.out)
 \@outlinefile=\write7
 \openout7 = `atelier-fp.out'.
 
 LaTeX Font Info:    Try loading font information for OT1+jkposn on input line 5
-3.
+6.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ot1jkposn.fd
 File: ot1jkposn.fd 2008/02/18 Fontinst v1.928 font definitions for OT1/jkposn.
 )
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 53.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 56.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 53.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 56.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
 (./atelier-fp.toc
-LaTeX Font Info:    Try loading font information for LGR+jkposn on input line 1
-9.
-LaTeX Font Info:    No file LGRjkposn.fd. on input line 19.
+LaTeX Font Info:    Try loading font information for LGR+artemisia on input lin
+e 19.
 
-
-LaTeX Font Warning: Font shape `LGR/jkposn/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 19.
-
+(/usr/local/texlive/2013/texmf-dist/tex/latex/gfsartemisia/lgrartemisia.fd)
+LaTeX Font Info:    Font shape `LGR/jkposn/m/n' in size <10> not available
+(Font)              Font shape `LGR/artemisia/m/n' tried instead on input line 
+19.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 9.29993pt on input line 19.
 )
 \tf@toc=\write8
 \openout8 = `atelier-fp.toc'.
 
- [1
+
+[1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for T1+jkpttosn on input line 
-71.
+74.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/t1jkpttosn.fd
 File: t1jkpttosn.fd 2008/02/18 Fontinst v1.928 font definitions for T1/jkpttosn
 .
 )
 LaTeX Font Info:    Try loading font information for TS1+jkposn on input line 9
-2.
+5.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/kpfonts/ts1jkposn.fd
 File: ts1jkposn.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkposn.
 ) [2]
 [3]
-Overfull \hbox (0.6794pt too wide) in paragraph at lines 148--149
+Overfull \hbox (0.6794pt too wide) in paragraph at lines 151--152
 []\T1/jkposn/m/n/10 Au re-gard de ces consi-dé-ra-tions sur le fonc-tion-ne-men
 t des na-vi-ga-teurs Web,
  []
 
 [4]
-Overfull \hbox (3.08234pt too wide) in paragraph at lines 175--175
+Overfull \hbox (3.08234pt too wide) in paragraph at lines 178--178
 []\T1/jkposn/m/n/14.4 Avantages de l'uti-li-sa-tion de L[]T[]X pour la re-cherc
 he
  []
 
 
-Overfull \hbox (0.16605pt too wide) in paragraph at lines 177--178
+Overfull \hbox (0.16605pt too wide) in paragraph at lines 180--181
 \T1/jkposn/m/n/10 Établissons d'abord un as-pect pri-mor-dial du pro-ces-sus de
  ré-dac-tion avec L[]T[]X : 
  []
 
 
-Overfull \hbox (3.52309pt too wide) in paragraph at lines 202--203
+Overfull \hbox (3.52309pt too wide) in paragraph at lines 205--206
 \T1/jkposn/m/n/10 nombre de langues an-ciennes et mo-dernes. No-tez que la lign
 e 1 de mon exemple
  []
 
-[5] [6]
-Overfull \hbox (10.84941pt too wide) in paragraph at lines 285--286
+[5]
+LaTeX Font Info:    Font shape `LGR/jkposn/m/n' in size <7.6> not available
+(Font)              Font shape `LGR/artemisia/m/n' tried instead on input line 
+219.
+LaTeX Font Info:    Font shape `LGR/artemisia/m/n' will be
+(Font)              scaled to size 7.06795pt on input line 219.
+ [6]
+Overfull \hbox (10.84941pt too wide) in paragraph at lines 288--289
 []\T1/jkposn/m/n/10 Voici à quoi res-semble une en-trée dans le fi-chier de bas
 e de don-nées (l'exemple
  []
 
 [7] [8] [9]
-Underfull \hbox (badness 1325) in paragraph at lines 385--386
+Underfull \hbox (badness 1325) in paragraph at lines 389--390
 []\T1/jkposn/m/n/10 Utiliser un sys-tème comme L[]T[]X, c'est donc sim-ple-ment
  dé-ci-der
  []
 
 [10]
-Overfull \hbox (5.59004pt too wide) in paragraph at lines 398--398
+Overfull \hbox (5.59004pt too wide) in paragraph at lines 402--402
 [][] 
  []
 
 
-Overfull \hbox (4.3045pt too wide) in paragraph at lines 398--398
+Overfull \hbox (4.3045pt too wide) in paragraph at lines 402--402
 [] $[]$ 
  []
 
 [11]
-Overfull \hbox (2.99948pt too wide) in paragraph at lines 461--463
+Overfull \hbox (2.99948pt too wide) in paragraph at lines 467--469
 \T1/jkposn/m/n/10 pro-cu-rer le guide d'uti-li-sa-tion de la classe do-cu-men-t
 aire \T1/jkposn/m/it/10 ul-these \T1/jkposn/m/n/10 à l'adresse
  []
 
 [12] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 474.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 474.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
  (./atelier-fp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 474.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 474.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 480.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 480.
 Package rerunfilecheck Info: File `atelier-fp.out' has not changed.
 (rerunfilecheck)             Checksum: 236235B56738E681BE3C7CC512077559;1012.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package logreq Info: Writing requests to 'atelier-fp.run.xml'.
 \openout1 = `atelier-fp.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24095 strings out of 493308
- 417394 string characters out of 6137816
- 795307 words of memory out of 5000000
- 27029 multiletter control sequences out of 15000+600000
- 174662 words of font info for 200 fonts, out of 8000000 for 9000
+ 24151 strings out of 493308
+ 418809 string characters out of 6137816
+ 795805 words of memory out of 5000000
+ 27078 multiletter control sequences out of 15000+600000
+ 181214 words of font info for 204 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,10n,65p,833b,3057s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.en
-c}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/cbfonts/grmn0800.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/kpfonts/jkpbnc.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/kpfonts/jkpmite.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
-e1/public/kpfonts/jkpmnc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/kpfonts/jkpmne.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/
-kpfonts/jkpmsc8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/kpf
-onts/jkpsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/kpfonts/j
-kpttmn8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/kpfonts/jkp
-ttmnc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msam10.pfb>
-Output written on atelier-fp.pdf (13 pages, 164183 bytes).
+c}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiael.
+enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/gfsartemisia/GFSArtemisia-Regular.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/kpfonts/jkpbnc.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/kpfonts/jkpttmn8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/kpfonts/jkpttmnc.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb>
+Output written on atelier-fp.pdf (13 pages, 183612 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

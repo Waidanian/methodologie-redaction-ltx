@@ -17,6 +17,7 @@
      "multicol"
      "sectsty"
      "syllogism"
+     "substitutefont"
      "amsmath"
      "kpfonts"
      "fulloldstylenums"

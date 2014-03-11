@@ -5,6 +5,7 @@
 \usepackage[polutonikogreek,french]{babel}
 \usepackage[fulloldstylenums]{kpfonts}
 \usepackage{amsmath}
+\usepackage{substitutefont}
 \usepackage{syllogism}
 \usepackage{sectsty}
 \usepackage{multicol}
@@ -15,16 +16,14 @@
     style=authortitle,]%
   {biblatex}
 
+\substitutefont{LGR}{jkposn}{artemisia}
+
 \addbibresource{atelier.bib}
 
 \allsectionsfont{\mdseries}
 \frenchbsetup{%
   StandardLayout=true,
 }
-
-\title{Méthodologie de la rédaction: l’utilisation de \LaTeX{} pour la rédaction de travaux, de mémoires et de thèses en philosophie}
-\author{Christian Gagné}
-\date{\today}
 
 \newcommand\pkgname[1]{\emph{#1}}
 \newcommand\entite[1]{{\textsc{#1}}}
@@ -44,6 +43,10 @@
     bottomrule=0mm,
 ]}
 {\end{tcolorbox}}
+
+\title{Méthodologie de la rédaction: l’utilisation de \LaTeX{} pour la rédaction de travaux, de mémoires et de thèses en philosophie}
+\author{Christian Gagné}
+\date{\today}
 
 \usepackage{hyperref}
 
@@ -360,19 +363,20 @@ Cela m’amène à présenter un principe qui est d’une grande importance pour
 Le \emph{balisage} peut être défini ainsi:
 
 \begin{quote}
-A (document) markup language is a modern system for annotating a document in a way that is syntactically distinguishable from the text\autocite{wiki:mrkp-lng}.
+A (document) markup language is a modern system for annotating a document in a way that is syntactically distinguishable from the text\autocite[\nopp version anglaise de \emph{Wikipedia}]{wiki:mrkp-lng}.
 \end{quote}
 
-Je traduis ainsi: \\
+Je traduis ainsi:
+
 Un langage de balisage (documentaire) est un système moderne pour annoter un document de telle sorte que l’annotation puisse être syntaxiquement distinguée du texte.
 \end{defex}
 
 Le concept de balisage est au principe du traitement de texte informatique. Du point de vue historique, les premiers langages de balisage étaient surtout destinés à la désignation de l’aspect visuel (typographique) des textes. Cependant, dès les années~60, des chercheurs commencèrent à explorer la possibilité d’utiliser le balisage pour désigner la structure, le sens et la fonction d’un texte et, également, pour en expliciter les \emph{références} et traiter celles-ci de façon automatique. Cela a mené aux concepts d’hypertexte et d’hyper-référence.
 
-Ces recherches ont mené à l’invention parallèle et quasi-simultanée de deux des langages de balisage les plus utilisés aujourd’hui: HTML pour le Web et \LaTeX{} pour l’édition traditionnelle. Tous deux sont, en principe, des langages de balisage spécifiquement \emph{sémantiques}.
+Ces recherches ont mené à l’invention parallèle et quasi-simultanée de deux des langages de balisage les plus utilisés aujourd’hui: HTML pour le Web et \LaTeX{} pour l’édition traditionnelle. Tous deux sont, en principe, des langages de balisage \emph{sémantiques}.
 
 \begin{defex}
-  Un langage de balisage est dit \emph{sémantique} s’il permet de privilégier la désignation de la structure et du sens d’un texte plutôt que la désignation de son aspect visuel. Toutefois, dans la plupart des cas, un aspect visuel donné correspond logiquement à une désignation sémantique donnée.
+Un langage de balisage est dit \emph{sémantique} s’il permet de privilégier la désignation de la structure et du sens d’un texte plutôt que la désignation de son aspect visuel. Toutefois, dans la plupart des cas, un aspect visuel donné correspond logiquement à une désignation sémantique donnée.
 
 Par exemple, dans le présent document, la plupart des italiques que vous voyez ont été appliquées \emph{parce que} l’intention de l’auteur est d’accentuer les propos mis en italique. L’aspect visuel correspond donc dans ce cas à une intention rhétorique.
 
@@ -395,7 +399,9 @@ Utiliser un système comme \LaTeX{}, c’est donc simplement décider d’écrir
 J’avance l’idée suivante: pour un philosophe ou un littéraire, il est plus philosophique et plus scientifique de procéder ainsi. Une telle méthodologie de la rédaction est davantage conforme à la nature de nos travaux et de nos enquêtes. Les opérations mentales que demandent un balisage sémantique des textes s’avèrent être bénéfiques pour la compréhension et l’organisation de l’argumentation. Qui plus est, la méthode est on ne peut plus \emph{concrète}: le but immédiat est toujours de produire un texte visible et mis en forme de façon impeccable. Quel meilleur adjuvant dans la communication et la démonstration? J’ose même présenter l’argument suivant:
 
 \begin{defex}
-\syllog{Un important sous-ensemble des cas d’utilisation, voire \emph{tous} les cas d’utilisation du balisage sémantique sont de nature déictique ou démonstrative.}{Or, la déictique et la démonstration sont des activités qui relèvent de la philosophie.}{Sous ce rapport, le balisage sémantique d’un texte philosophique est en soi une activité philosophique.}\footnote{Ce syllogisme est balisé et mis en forme grâce à une commande fournie par le paquet \LaTeX{} \pkgname{syllogism}.}
+\syllog{La déictique et la démonstration sont des activités qui relèvent de la philosophie.}{Or, un important sous-ensemble des cas d’utilisation, voire \emph{tous} les cas d’utilisation du balisage sémantique sont de nature déictique ou démonstrative.}{Sous ce rapport, le balisage sémantique d’un texte philosophique est en soi une activité philosophique.}
+
+(Ce syllogisme est balisé et mis en forme grâce à une commande fournie par le paquet \LaTeX{} \pkgname{syllogism}.)
 \end{defex}
 
 % Concept de déictique (référence, contextualisation, voir Chrysippe): LaTeX permet une *deixis* plus aisée en proposant une syntaxe de *désignation* très compacte et concise. Parler des pratiques contemporaines de référence par hyperlien et accentuation dans les articles de blog ou de sites “Question and Answer”.
@@ -430,7 +436,7 @@ En comparaison, la formule de la rédaction et de l’édition avec \LaTeX{} est
 
 \begin{defex}
 \begin{equation*}
-\frac{(\text{\LaTeX{}} \leftrightarrow \text{\LaTeX{}}) \cdot x}{\mathcal{SCV} + \text{service Web}} = \text{ouvrage accessible et reproductible}
+\frac{(\text{\LaTeX{}} \leftrightarrow \text{\LaTeX{}}) \cdot x}{\mathcal{SCV} + \text{service Web}} = \text{ouvrage \emph{accessible} et \emph{reproductible}}
 \end{equation*}
 
 Où:
