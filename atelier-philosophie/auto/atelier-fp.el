@@ -16,6 +16,8 @@
      "fancyvrb"
      "multicol"
      "sectsty"
+     "syllogism"
+     "amsmath"
      "kpfonts"
      "fulloldstylenums"
      "babel"

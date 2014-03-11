@@ -4,7 +4,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[polutonikogreek,french]{babel}
 \usepackage[fulloldstylenums]{kpfonts}
-%\usepackage[a5paper]{geometry}
+\usepackage{amsmath}
+\usepackage{syllogism}
 \usepackage{sectsty}
 \usepackage{multicol}
 \usepackage{fancyvrb}
@@ -391,15 +392,21 @@ Utiliser un système comme \LaTeX{}, c’est donc simplement décider d’écrir
 
 \end{defex}
 
-Concept de déictique (référence, contextualisation, voir Chrysippe): LaTeX permet une *deixis* plus aisée en proposant une syntaxe de *désignation* très compacte et concise. Parler des pratiques contemporaines de référence par hyperlien et accentuation dans les articles de blog ou de sites “Question and Answer”.
+J’avance l’idée suivante: pour un philosophe ou un littéraire, il est plus philosophique et plus scientifique de procéder ainsi. Une telle méthodologie de la rédaction est davantage conforme à la nature de nos travaux et de nos enquêtes. Les opérations mentales que demandent un balisage sémantique des textes s’avèrent être bénéfiques pour la compréhension et l’organisation de l’argumentation. Qui plus est, la méthode est on ne peut plus \emph{concrète}: le but immédiat est toujours de produire un texte visible et mis en forme de façon impeccable. Quel meilleur adjuvant dans la communication et la démonstration? J’ose même présenter l’argument suivant:
 
-… Il y a la deixis et il y a la lexis, donc l’élément le plus typique et le plus répandu est l’accentuation (emphasis). Or, parfois, l’accentuation ou en général la *désignation de la lexis* coïncide effectivement avec la deixis et avec certains éléments d’analyse linguistique du discours.
+\begin{defex}
+\syllog{Un important sous-ensemble des cas d’utilisation, voire \emph{tous} les cas d’utilisation du balisage sémantique sont de nature déictique ou démonstrative.}{Or, la déictique et la démonstration sont des activités qui relèvent de la philosophie.}{Sous ce rapport, le balisage sémantique d’un texte philosophique est en soi une activité philosophique.}\footnote{Ce syllogisme est balisé et mis en forme grâce à une commande fournie par le paquet \LaTeX{} \pkgname{syllogism}.}
+\end{defex}
 
-Dès qu’une lexis est bien désignée et différenciée, c’est une victoire et un vecteur d’efficacité pour la communication d’une argumentation. Une telle désignation ne devrait pas être perçue comme purement esthétique (même si son aspect esthétique est lui-même hautement important): il s’agit d’illumination et de démonstration visible de la structure d’un discours argumentatif. Comme le dit Aristote, idéalement la lexis devrait peu importer, mais dans les faits on observe qu’elle est très importante.
+% Concept de déictique (référence, contextualisation, voir Chrysippe): LaTeX permet une *deixis* plus aisée en proposant une syntaxe de *désignation* très compacte et concise. Parler des pratiques contemporaines de référence par hyperlien et accentuation dans les articles de blog ou de sites “Question and Answer”.
 
-Autre implication: une désignation adéquate facilite la *transformation* du texte. Or, tout texte composé à l’ordinateur est voué à la transformation. Il existe même un champ de l’informatique, soit la transformation de programmes, qui s’applique directement au texte argumentatif tel qu’encodé dans l’ordinateur.
+% … Il y a la deixis et il y a la lexis, donc l’élément le plus typique et le plus répandu est l’accentuation (emphasis). Or, parfois, l’accentuation ou en général la *désignation de la lexis* coïncide effectivement avec la deixis et avec certains éléments d’analyse linguistique du discours.
 
-Exemple: le paquet \pkgname{syllogism}.
+% Dès qu’une lexis est bien désignée et différenciée, c’est une victoire et un vecteur d’efficacité pour la communication d’une argumentation. Une telle désignation ne devrait pas être perçue comme purement esthétique (même si son aspect esthétique est lui-même hautement important): il s’agit d’illumination et de démonstration visible de la structure d’un discours argumentatif. Comme le dit Aristote, idéalement la lexis devrait peu importer, mais dans les faits on observe qu’elle est très importante.
+
+% Autre implication: une désignation adéquate facilite la *transformation* du texte. Or, tout texte composé à l’ordinateur est voué à la transformation. Il existe même un champ de l’informatique, soit la transformation de programmes, qui s’applique directement au texte argumentatif tel qu’encodé dans l’ordinateur.
+
+% Exemple: le paquet \pkgname{syllogism}.
 
 \subsection{Publication aisée et normalisation}
 
@@ -419,7 +426,48 @@ Secrétaire d’édition en Adobe InDesign (\textrightarrow)
 Auteur~1 encore une fois etc. etc. …
 \end{defex}
 
-En conclusion: matériellement, le texte est encodé selon les normes d’un format de rédaction à l’aide de mots-clés et, formellement, la désignation de la structure par un langage formel permet un traitement intelligent, reproductible et maîtrisable et une publication (communication) accessible, efficace, esthétique et *immédiate*.
+En comparaison, la formule de la rédaction et de l’édition avec \LaTeX{} est simple et \emph{convainquante}:
+
+\begin{defex}
+\begin{equation*}
+\frac{(\text{\LaTeX{}} \leftrightarrow \text{\LaTeX{}}) \cdot x}{\mathcal{SCV} + \text{service Web}} = \text{ouvrage accessible et reproductible}
+\end{equation*}
+
+Où:
+
+\begin{itemize}
+\item $\mathcal{SCV}$ signifie \emph{système de contrôle des versions};
+\item $\leftrightarrow$ représente un échange de différentes versions des documents (différents états de la rédaction ou de la révision);
+\item $x$ est le nombre d’auteurs, réviseurs et secrétaires d’édition.
+\end{itemize}
+\end{defex}
+
+Cet aspect est d’une très grande importance. Si je ne réussis rien d’autre aujourd’hui, j’espère au moins réussir à vous convaincre de \emph{l’urgence} de la normalisation et de la reproductibilité dans le travail documentaire. \LaTeX{} est l’un des meilleurs systèmes pour ce qui est de la normalisation et de la reproductibilité. Un autre bon candidat est LibreOffice/OpenOffice en combinaison avec le format \entite{OpenDocument}, mais je ne pourrai en parler aujourd’hui. Sachez seulement qu’il est primordial d’adopter des formats ouverts, stables, pérennes et maîtrisables quels que soient la discipline et le cas d’utilisation.
+
+En résumé:
+
+\begin{defex}
+\begin{description}
+\item[matériellement:] le texte est encodé selon les normes d’un format de rédaction à l’aide de mots-clés;
+\item[formellement:] la désignation de la structure par un langage formel permet un traitement intelligent, reproductible et maîtrisable et une publication (communication) accessible, efficace et esthétique.
+\end{description}
+\end{defex}
+
+\section{Que faire pour commencer?}
+
+Si jamais, ô bienheureux public, vous voulez commencer à explorer \LaTeX{}, voici ce que je recommande:
+
+\begin{enumerate}
+\item La FESP a publié de l’information sur \LaTeX{} sur son site Web et on peut se procurer le guide d’utilisation de la classe documentaire \pkgname{ulthese} à l’adresse suivante: \\
+\url{http://www.ctan.org/pkg/ulthese}
+\item Un excellent livre pour apprendre à utiliser \LaTeX{} en science humaines a été récemment publié par un dénommé Maïeuil Rouquette:
+\item Vous pouvez vous procurer un système \TeX{} complet — encore une fois, c’est gratuit!
+  \begin{itemize}
+  \item Sur Windows: \url{http://tug.org/protext/}
+  \item Sur Mac~OS~X: \url{http://tug.org/mactex/}
+  \item … et alternativement: \TeX{} Live, la distribution \emph{officielle} du \entite{Groupe des Utilisateurs de \TeX{}}, disponible sur tous les systèmes incluant Windows, Mac et Linux: \url{http://tug.org/texlive/} (MacTeX comprend tout ce que \TeX{} Live comprend, plus des utilitaires spécifiques au Mac, mais proTeXt pour Windows n’est pas aussi exhaustif).
+  \end{itemize}
+\end{enumerate}
 
 \printbibliography
 

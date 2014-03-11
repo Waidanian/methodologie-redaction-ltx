@@ -25,3 +25,5 @@
 \contentsline {subsection}{\numberline {4.3}Balisage s\IeC {\'e}mantique et communication efficace d\IeC {\textquoteright }une argumentation}{9}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Publication ais\IeC {\'e}e et normalisation}{11}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Que faire pour commencer?}{12}{section.5}
