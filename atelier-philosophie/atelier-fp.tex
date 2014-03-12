@@ -1,5 +1,3 @@
-\documentclass{article}
-
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[polutonikogreek,french]{babel}
@@ -43,6 +41,10 @@
     bottomrule=0mm,
 ]}
 {\end{tcolorbox}}
+% Environnement pour les cadres Beamer:
+\newenvironment{shown}
+{\begin{frame}}
+{\end{frame}}
 
 \title{Méthodologie de la rédaction: l’utilisation de \LaTeX{} pour la rédaction de travaux, de mémoires et de thèses en philosophie}
 \author{Christian Gagné}
@@ -58,7 +60,7 @@
 
 \section{Portée de cette présentation}
 
-Cette présentation s’adresse à toute personne ayant à rédiger des documents structurés ou à présenter une argumentation, c’est-à-dire \emph{beaucoup de gens}.
+Cette présentation s’adresse à toute personne ayant à rédiger des documents structurés ou à présenter une argumentation, c’est-à-dire \emph{un très grand nombre de gens}.
 
 La finalité est de présenter \LaTeX{} en tant qu’outil de rédaction: montrer ses principes, son mode de fonctionnement, ses avantages et les résultats auxquels on parvient en l’utilisant.
 
@@ -349,7 +351,7 @@ L’usage de cette commande a deux autres bénéfices:
 
 Personnellement, ce que je m’apprête à vous présenter est mon aspect préféré du processus de rédaction avec \LaTeX{}.
 
-Premièrement, sachez que la présentation que vous voyez à l’écran et le \emph{handout} ont été préparés à partir d’un unique document \LaTeX{}. Avec des commandes, j’ai indiqué quelles parties devaient être composées sur les diapositives de ma présentation. Aucun copier-coller n’a été nécessaire: le balisage du texte avec les commandes de \LaTeX{} permet de spécifier la fonction et la disposition de chaque partie du texte.
+Premièrement, sachez que la présentation que vous voyez à l’écran et le \emph{handout} ont été préparés à partir d’un unique document \LaTeX{}. Avec des commandes propres à chaque document, j’ai indiqué quelques paramètres spécifiques pour la présentation à l’écran et pour le \emph{handout}. Aucun copier-coller n’a été nécessaire, car le balisage du texte avec les commandes de \LaTeX{} permet de spécifier la structure et la disposition du texte  \emph{indépendamment l’une de l’autre}, ce qui permet d’obtenir plusieurs documents à partir du même texte.
 
 Cela m’amène à présenter un principe qui est d’une grande importance pour des gens en Philosophie et en Lettres: je veux parler du \emph{balisage sémantique}.
 

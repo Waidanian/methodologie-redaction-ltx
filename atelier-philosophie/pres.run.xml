@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>atelier-fp.bcf</file>
+      <file>pres.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>atelier-fp.bbl</file>
+      <file>pres.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>atelier-fp</infile>
+      <infile>pres</infile>
     </cmdline>
     <input>
-      <file>atelier-fp.bcf</file>
+      <file>pres.bcf</file>
     </input>
     <output>
-      <file>atelier-fp.bbl</file>
+      <file>pres.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>atelier-fp.bbl</file>
+      <file>pres.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>atelier-fp.bcf</file>
+      <file>pres.bcf</file>
     </requires>
     <requires type="editable">
       <file>atelier.bib</file>

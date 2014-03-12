@@ -3,7 +3,8 @@
     (LaTeX-add-bibliographies
      "atelier")
     (LaTeX-add-environments
-     "defex")
+     "defex"
+     "shown")
     (TeX-add-symbols
      '("stephnum" 1)
      '("opus" 1)
@@ -11,6 +12,9 @@
      '("pkgname" 1))
     (TeX-run-style-hooks
      "polyglossia"
+     "latex2e"
+     "art10"
+     "article"
      "hyperref"
      "tcolorbox"
      "fancyvrb"
@@ -19,6 +23,7 @@
      "syllogism"
      "substitutefont"
      "amsmath"
+     ""
      "kpfonts"
      "fulloldstylenums"
      "babel"
@@ -27,9 +32,5 @@
      "fontenc"
      "T1"
      "inputenc"
-     "utf8"
-     "latex2e"
-     "art10"
-     "article"
-     "")))
+     "utf8")))
 

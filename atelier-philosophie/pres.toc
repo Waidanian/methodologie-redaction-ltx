@@ -1,0 +1,29 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Port\IeC {\'e}e de cette pr\IeC {\'e}sentation}{2}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Qu\IeC {\textquoteright }est-ce qu\IeC {\textquoteright }un logiciel libre?}{4}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Pr\IeC {\'e}sentation de \textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }{} et \textlatin {\LaTeX }{}: l\IeC {\textquoteright }analogie des navigateurs Web et des suites bureautiques}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}\textlatin {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }{} est un moteur de disposition typographique}{7}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}\textlatin {\LaTeX }{} est un format de r\IeC {\'e}daction et de structure}{9}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Avantages de l\IeC {\textquoteright }utilisation de \textlatin {\LaTeX }{} pour la recherche et la r\IeC {\'e}daction en philosophie}{10}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Prise en charge des langues}{13}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\select@language {polutonikogreek}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Traitement de la bibliographie}{14}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Balisage s\IeC {\'e}mantique et communication efficace d\IeC {\textquoteright }une argumentation}{20}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Publication ais\IeC {\'e}e et normalisation}{25}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Que faire pour commencer?}{28}{section.5}

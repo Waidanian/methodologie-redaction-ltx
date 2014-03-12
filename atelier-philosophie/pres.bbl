@@ -1,0 +1,119 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{wiki:mrkp-lng}{inreference}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=862ba84c1e8367008b34fd7eaee0d6fd}{Multiples}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=862ba84c1e8367008b34fd7eaee0d6fd}{Multiples}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2eec9d477c8684b5b9eeb882763c948c}{Foundation}{F\bibinitperiod}{The\bibnamedelima Wikimedia}{T\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{fullhash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \field{sortinit}{M}
+      \field{labeltitle}{Markup Language}
+      \field{booktitle}{Wikipedia}
+      \field{day}{09}
+      \field{month}{03}
+      \field{title}{Markup Language}
+      \field{urlday}{09}
+      \field{urlmonth}{03}
+      \field{urlyear}{2014}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Markup_language
+      \endverb
+    \endentry
+    \entry{plat:rep:lrx}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e2baf3f5223080b8067f5af7843427cc}{Platon}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{annotator}{1}{}{%
+        {{hash=8fac29cb5e81f3a2d5e3a48d6b6f06a0}{Leroux}{L\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e2baf3f5223080b8067f5af7843427cc}{Platon}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8fac29cb5e81f3a2d5e3a48d6b6f06a0}{Leroux}{L\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=8fac29cb5e81f3a2d5e3a48d6b6f06a0}{Leroux}{L\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {french}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Flammarion}%
+      }
+      \strng{namehash}{e2baf3f5223080b8067f5af7843427cc}
+      \strng{fullhash}{e2baf3f5223080b8067f5af7843427cc}
+      \field{sortinit}{P}
+      \field{labeltitle}{République}
+      \field{edition}{deuxième édition corrigée}
+      \field{origlanguage}{greek}
+      \field{pagetotal}{801}
+      \field{series}{GF}
+      \field{title}{République}
+      \field{year}{2004}
+    \endentry
+    \entry{rouquette-xe}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=fc63e2f2700e2f9df0dc80d0b79b2b97}{{Rouquette,\bibnamedelimb Maïeul}}{R\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=236ee7caa95a6dd91dd98e19fc3af512}{{Chabannes,\bibnamedelimb Brendan}}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=3a5ec8984ebb0dfc534a73343df4549c}{{Rouquette,\bibnamedelimb Enimie}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=fc63e2f2700e2f9df0dc80d0b79b2b97}{{Rouquette,\bibnamedelimb Maïeul}}{R\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=236ee7caa95a6dd91dd98e19fc3af512}{{Chabannes,\bibnamedelimb Brendan}}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=3a5ec8984ebb0dfc534a73343df4549c}{{Rouquette,\bibnamedelimb Enimie}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Tampere}%
+      }
+      \list{publisher}{1}{%
+        {Atramenta}%
+      }
+      \strng{namehash}{efe279611b2ffb68b00473dbbfc14c01}
+      \strng{fullhash}{efe279611b2ffb68b00473dbbfc14c01}
+      \field{sortinit}{R}
+      \field{labeltitle}{(Xe)LaTeX appliqué aux sciences humaines}
+      \field{isbn}{{9789522730732} and {9522730734}}
+      \field{pagetotal}{268}
+      \field{title}{(Xe)LaTeX appliqué aux sciences humaines}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://ariane.ulaval.ca/cgi-bin/recherche.cgi?qu=a2148913
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
