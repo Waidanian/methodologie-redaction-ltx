@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.28)  12 MAR 2014 10:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.28)  12 MAR 2014 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2338,13 +2338,7 @@ Overfull \hbox (10.84941pt too wide) in paragraph at lines 294--295
 e de don-nées (l'exemple
  []
 
-[8] [9]
-Underfull \hbox (badness 1325) in paragraph at lines 395--396
-[]\T1/jkposn/m/n/10 Utiliser un sys-tème comme L[]T[]X, c'est donc sim-ple-ment
- dé-ci-der
- []
-
-[10]
+[8] [9] [10]
 Overfull \hbox (5.59004pt too wide) in paragraph at lines 408--408
 [][] 
  []
@@ -2403,7 +2397,7 @@ t/fonts/type1/public/kpfonts/jkpsy.pfb></usr/local/texlive/2013/texmf-dist/font
 s/type1/public/kpfonts/jkpttmn8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/public/kpfonts/jkpttmnc.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
-Output written on handout.pdf (13 pages, 187709 bytes).
+Output written on handout.pdf (13 pages, 187699 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams
